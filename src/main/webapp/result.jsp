@@ -79,7 +79,7 @@
             <tr class="text-center">    
                 <td>
                     <%=gene.getGene()%>&nbsp;
-                     <a href="http://atavdb.org/Search?query=<%=gene.getGene()%>" target="_blank"><span class="label label-default">atavdb</span></a> 
+                     <a href="http://atavdb.org/gene/<%=gene.getGene()%>" target="_blank"><span class="label label-default">atavdb</span></a> 
                 </td>
                 <td>
                     <%=gene.getALL_01()%>
